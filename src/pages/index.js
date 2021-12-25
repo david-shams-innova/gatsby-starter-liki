@@ -1,4 +1,5 @@
 import React from 'react'
+import Display from '../components/Clock'
 import Clock from '../components/Clock'
 import cat from '../data/images/cat.jpeg'
 
@@ -9,7 +10,9 @@ export default function index() {
       {/* <img src="../images/cat.jpeg" alt="Cat" /> */}
       <img src={cat} alt="Cat" />
       <h3>Mushik</h3>
+      <div id="clock"></div>
       <Clock />
+      <Display />
     </main>
   )
 }
