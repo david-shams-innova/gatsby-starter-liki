@@ -11,8 +11,8 @@ export default function index() {
       <img src={cat} alt="Cat" />
       <h3>Mushik</h3>
       <div id="clock"></div>
-      <Clock />
-      <Display />
+      {/* <Clock /> */}
+      {/* <Display /> */}
     </main>
   )
 }
