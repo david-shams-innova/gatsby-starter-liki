@@ -1,6 +1,7 @@
 import React from 'react'
 import Display from '../components/Clock'
 import Clock from '../components/Clock'
+import SiteMap from '../components/site-map/SiteMap'
 import cat from '../data/images/cat.jpeg'
 
 export default function index() {
@@ -13,6 +14,7 @@ export default function index() {
       <div id="clock"></div>
       {/* <Clock /> */}
       {/* <Display /> */}
+      <SiteMap />
     </main>
   )
 }
